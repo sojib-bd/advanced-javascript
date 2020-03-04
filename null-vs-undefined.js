@@ -9,7 +9,7 @@ console.log(name);
 // What is undefined?
 // Undefined most typically means a variable has been declared, but not defined.
 let b;
-console.log(b)
+//console.log(b)
 
 //when looking up non-existent properties in an object, you will receive undefined:
 
@@ -31,8 +31,18 @@ console.log(person.id) // undefined
 
 
 let a = null;
-let b;
+//let b;
 console.log(typeof a);
 // object
 console.log(typeof b);
 // undefined
+
+function doSomething(x, y) {
+
+    console.log(y);
+
+}
+
+
+
+doSomething(32);
